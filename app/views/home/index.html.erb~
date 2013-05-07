@@ -1,9 +1,8 @@
 <h1>Laura Land</h1>
 <p>I am new to the internet.  Please be patient with me.</p>
-<p>When I grow up, I hope to be useful.  At the moment I am like:
+<p>When I grow up, I hope to be useful.  At the moment I am:
 <li> An Auburn fan.  Confused and sometimes hysterical. 
-<li> Down by the river. Often buggy. 
-<li> Drinking PBR.  But less ironic.    
+<li> Down by the river. Often buggy.  
 <p>
 <p><%= link_to "User Database", users_path %></p>
 
