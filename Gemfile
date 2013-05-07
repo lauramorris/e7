@@ -37,3 +37,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'bootstrap-sass'
+gem 'omniauth-google-oauth2'
