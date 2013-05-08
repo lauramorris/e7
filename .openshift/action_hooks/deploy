@@ -12,4 +12,5 @@
 pushd ${OPENSHIFT_REPO_DIR} > /dev/null
 bundle exec rake db:create RAILS_ENV="production"
 bundle exec rake db:migrate RAILS_ENV="production"
+cp ${OPENSHIFT_DATA_DIR}/application.yml config/application.yml
 popd > /dev/null

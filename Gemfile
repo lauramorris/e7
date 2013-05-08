@@ -38,7 +38,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 gem 'bootstrap-sass'
 gem 'omniauth-google-oauth2'
-
-
-
-
+gem 'figaro'
