@@ -39,3 +39,4 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'omniauth-google-oauth2'
 
+
