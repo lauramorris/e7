@@ -268,47 +268,94 @@
 
   <body>
 
- <div id="myCarousel" class="carousel slide">
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">e7 Wedding Website</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">How It Works</a></li>
+                <li><a href="#contact">Add Your Venue</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn More <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Connect With Us</li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">On Twitter</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://www.weddingvenues.com/new-site/image.php?width=612&function=resizeCrop&source=../images/listing_photos/5052_DSC_9232.jpg" alt="">
-          <div class="container">
-           <div class="carousel-caption">
-              <h1>Explore London's hidden gems.</h1>
-              <p class="lead">Make your wedding uniquely yours!</p> </p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a> 
-            </div>
-          </div>          
-
-	</div>
-        <div class="item">
-          <img src="http://www.stylist.co.uk/resource/cache/binary/2704f168e7c4ffe5e3e4274dbe9b44e6/615x330_hero-wedding.jpg?m=1343218491" alt="">
+          <img src="http://www.bridalguide.com/sites/default/files/article-images/PHOTO-OF-THE-DAY/axioo-photography-draping.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Explore London's hidden gems.</h1>
-              <p class="lead">Make your wedding uniquely yours!</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+              <h1>Explore London's Hidden Gems</h1>
+              <p class="lead"> Make your wedding uniquely yours.</p>
+              <a class="btn btn-large btn-primary" href="#">Search Venues</a>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="http://www.twmuseums.org.uk/geisha/inc/img/geisha/assets/images/wedding-large19.jpg/661/431/fill.jpg" alt="">
+          <img src="http://www.allisterfreeman.co.uk/picture/wick%20bottom%20barn%20wedding%20photography033.jpg?pictureId=11931687&asGalleryImage=true" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Explore Mihir.</h1>
-              <p class="lead">Make your wedding uniquely yours! </p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+              <h1>Explore London's Hidden Gems</h1>
+              <p class="lead">Make your wedding uniquely yours.</p>
+              <a class="btn btn-large btn-primary" href="#">Search Venues</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://www.photographybytaraandclaire.com/muse/wp-content/uploads/2013/04/855149972869c45a563f9fd4d647b2af-300x200.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Explore London's Hidden Gems</h1>
+              <p class="lead">Make your wedding uniquely yours.</p>
+              <a class="btn btn-large btn-primary" href="#">Search Venues</a>
             </div>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
+    </div><!-- /.carousel -->
 
 
 
-<!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
@@ -318,48 +365,60 @@
       <div class="row">
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Feature 1</h2>
+          <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Feature 2</h2>
+          <h2>Heading</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Feature 3</h2>
+          <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
 
-<p>
-<p>
-<h1>Laura Land</h1>
-<p>
-<p>I am new to the internet.  Please be patient with me.</p>
-<p>When I grow up, I hope to be useful.  At the moment I am like:
 
-<li> An Auburn fan.  Confused and sometimes hysterical. 
-<li> Down by the river. Often buggy. 
-<li> Drinking PBR.  But less ironic.    
-<p>
+      <!-- START THE FEATURETTES -->
 
-<p><%= link_to "User Database", users_path %></p>
-<% if !!current_user %>
-  <h3>Welcome <%= current_user.name %></h3>
-  <p><%= link_to "Sign Out", signout_path %></p>
-<% else %> 
-  <p><%= link_to "Sign In", "/auth/google_login" %></p>
-<% end %>
+      <hr class="featurette-divider">
 
- <!-- FOOTER -->
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
+        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Laura Morris &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -393,6 +452,3 @@
     <script src="../assets/js/holder/holder.js"></script>
   </body>
 </html>
-
-
-
